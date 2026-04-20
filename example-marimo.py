@@ -14,6 +14,7 @@ def _():
 
 @app.cell
 def _(Mermaid):
+    # create a diagram
     Mermaid(
         diagram="""
     flowchart LR
