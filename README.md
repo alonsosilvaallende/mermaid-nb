@@ -30,8 +30,12 @@ Mermaid(diagram="flowchart LR\n  Hello --> World\n  Hello --> Name")
 ## Create a Mermaid diagram in a marimo notebook or a marimo WebAssembly (WASM) notebook
 <img width="719" height="467" alt="image" src="https://github.com/user-attachments/assets/a573ef71-ade6-4afe-bca4-12278bdd7dee" />
 
+Here is a [basic example](https://marimo.app/?slug=pn13uf) of a marimo WebAssembly (WASM) notebook.
+
 ## Create a Mermaid diagram in a JupyterLite notebook
 <img width="556" height="395" alt="image" src="https://github.com/user-attachments/assets/750a7f24-6ce3-47a8-a4ed-b84e957adcb8" />
+
+Here is a [basic example](https://alonsosilvaallende.github.io/my-jupyterlite-site/lab/index.html?tempNotebook=1&path=temp.ipynb&openAsNotebook=1#notebook=N4IgtgpgLghgJjWIBcoDWEBOA7CAbAZwAcIBjFUbGSFEIgTygAsB7bEAGhDgEti8Y9APpUayEAAVGrbAAIAFFJa84EAJScQA7AHMArjB0RaDZmxABfLtv2GIQntgBmLCiFLKIYHpkwtMQmCebqLG4qYymgBuWAQ85sgAzFYgTjx49hAAHlAQ2HEJIAB0DJrekFD0JLS5OQD0WQC0EeZcoSbSrSDYAEYe2DGYUELZRP65mB1m7FwMOpDYUARCGVlYtDwt2InRsfHs4olFAByWKb0umGCIgY7+KACsbT2X11AoACxcpPiEKADaoB4cFoxwAjAA2ABMAE4YQAGUiNGAQh4QxofY4fJE9SEAdkaD0S8JhMGJuLgYPI31+Qkq1XEHlUmgILD0mB+tAApERNrJHARYHg8LJIFcYMCRD0ytB4IgYG4oJg9IKICDkEq9BAUmyoEQ9EsAQBdLjZMgG-ZCDx6RYobB6YVWIHqkB4kkw45wD4PDEQSEYl5I47wv2NCCJSn4iDwqnwzQ-YV0qphdzBLis9mc8ROPxgUVYa6S3r8sBjIayACyBYlcAAOth61XxcD5LxDJhqABeWupPAsADupCYMHLABkAEq1+uyWQACV+LFkjUaAD5ZAB1fx4OvTucLper2QAOWoEB7Gi4FTlSFQIE1qvVmu1XF1+sNyH+JpAZtIFrYVrZW1kHtR0OGdWhSUSGFEkSCBjkaPEIDxRIMXhHofRgUg4B6RoIR6D5EgI0gYTBGEnGlGlE3pFMmWMdM2Q5FMZVgBAb1Ae9ckfZVnxAV8DQIY1TTWX8oEta0gJAvALCNCwgA) of a JupyterLite notebook.
 
 ## Development
 
