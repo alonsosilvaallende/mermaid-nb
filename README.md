@@ -31,7 +31,7 @@ Mermaid(diagram="flowchart LR\n  Hello --> World\n  Hello --> Name")
 <img width="719" height="467" alt="image" src="https://github.com/user-attachments/assets/a573ef71-ade6-4afe-bca4-12278bdd7dee" />
 
 ## Create a Mermaid diagram in a JupyterLite notebook
-<img width="533" height="395" alt="image" src="https://github.com/user-attachments/assets/22e2d91c-36e1-4c64-806d-8e2589c7d042" />
+<img width="556" height="395" alt="image" src="https://github.com/user-attachments/assets/750a7f24-6ce3-47a8-a4ed-b84e957adcb8" />
 
 ## Development
 
