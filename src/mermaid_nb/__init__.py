@@ -11,19 +11,15 @@ except importlib.metadata.PackageNotFoundError:
     __version__ = "unknown"
 
 class Mermaid(anywidget.AnyWidget):
-    """
-    Mermaid diagram widget.
+    """Mermaid diagram widget.
 
-    Parameters
-    ----------
-    diagram : str
-        Mermaid diagram definition string.
-    theme : str
-        One of: "default", "neutral", "dark", "forest", "base".
-    look : str
-        One of: "classic", "handDrawn".
-    theme_variables : dict
-        Override theme variables, e.g. {"fontFamily": "Arial"}.
+    Examples:
+        ```python
+        from mermaid_nb import Mermaid
+
+        diagram = Mermaid("flowchart LR\\n  Hello --> World")
+        diagram
+        ```
     """
     _esm = pathlib.Path(__file__).parent / "static" / "widget.js"
     _css = pathlib.Path(__file__).parent / "static" / "widget.css"
@@ -40,6 +36,15 @@ class Mermaid(anywidget.AnyWidget):
         theme_variables: dict = {},
         **kwargs
     ):
+        """Create a Mermaid diagram widget.
+
+        Args:
+            diagram (str): Mermaid diagram definition string.
+            theme (str): One of: "default", "neutral", "dark", "forest", "base".
+            look (str): One of: "classic", "handDrawn".
+            theme_variables (dict): Override theme variables, e.g. {"fontFamily": "Arial"}.
+            **kwargs: Forwarded to ``anywidget.AnyWidget``.
+        """
         super().__init__(
             diagram=diagram,
             theme=theme,
